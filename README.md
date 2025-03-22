@@ -22,4 +22,11 @@ This project demonstrates how to open and display a real-time video feed from a 
 Before running the project, you'll need to install **OpenCV**. Run the following command in your terminal or command prompt:
 
 ```bash
-pip install opencv-python
+pip install opencv-python 
+```
+
+this is for the full package 
+
+```bash
+pip install opencv-contrib-python
+```
