@@ -2,14 +2,6 @@
 
 This project demonstrates how to open and display a real-time video feed from a camera using **OpenCV**. The feed is continuously shown until the user presses the **'q'** key to exit.
 
-## Table of Contents
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
-
 ## Requirements
 
 - Python 3.x
