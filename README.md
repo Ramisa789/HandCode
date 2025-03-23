@@ -30,3 +30,9 @@ this is for the full package
 ```bash
 pip install opencv-contrib-python
 ```
+
+### Step 2: Run the file
+
+```bash
+python Visual_Aid.py
+```
