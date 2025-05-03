@@ -7,10 +7,12 @@ def camera():
 
     while True:
         success, frame = cap.read()  # Read a frame from the camera
-        Text.main_text(frame)
         
         if not success:
             break  # If frame is not captured correctly, exit loop
+
+        frame = cv2.flip(frame, 1) # to make sure the camera is not inverted 
+        Text.main_text(frame)
 
         cv2.imshow("Camera Feed", frame)  # Show the camera feed
 
