@@ -26,5 +26,5 @@ pip install opencv-contrib-python
 ### Step 2: Run the file
 
 ```bash
-python Visual_Aid.py
+python frontend.py
 ```
