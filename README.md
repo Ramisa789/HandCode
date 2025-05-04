@@ -1,4 +1,4 @@
-# Visual Aid Project
+# Hand Code Project
 
 This project demonstrates how to open and display a real-time video feed from a camera using **OpenCV**. The feed is continuously shown until the user presses the **'q'** key to exit.
 
