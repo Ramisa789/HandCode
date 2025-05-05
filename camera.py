@@ -1,5 +1,5 @@
 import cv2  # OpenCV for video capture
-import Text
+import text
 
 def camera():
 
@@ -12,7 +12,7 @@ def camera():
             break  # If frame is not captured correctly, exit loop
 
         frame = cv2.flip(frame, 1) # to make sure the camera is not inverted 
-        Text.main_text(frame)
+        text.main_text(frame)
 
         cv2.imshow("Camera Feed", frame)  # Show the camera feed
 
@@ -22,4 +22,6 @@ def camera():
     cap.release()  # Release the camera
     cv2.destroyAllWindows()  # Close all OpenCV windows
 
-camera()
+#camera()
+
+
